@@ -1,0 +1,478 @@
+// 换行
+// *{
+//   // white-space: pre-wrap
+// }
+main{
+  -webkit-overflow-scrolling:touch;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toutu {
+  height: 130px;
+  width: 350px;
+  background-color: aquamarine;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  animation:zb 2s  ;
+  // overflow: hidden;
+  img {
+    height: 130px;
+    width: 350px;
+    background-color: aqua;
+  }
+}
+@keyframes zb{
+  from{
+    opacity:0;
+    transform: translateY(-200px);
+  }
+}
+.hallotext {
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0px;
+  font-weight: normal;
+  text-align: center;
+  writing-mode: horizontal-tb;
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  padding: 5px;
+  text-indent: 0px;
+  height: 24px;
+  margin: 10px;
+  width: auto;
+}
+.xing {
+  background-color: brown;
+  height: 15px;
+  width: 30px;
+}
+.jiantou {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin: 30px;
+}
+.music {
+  height: 74px;
+  width: 323px;
+  background-color: bisque;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.musicnamebox {
+  height: 50px;
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.musicname {
+  font-size: 17px;
+  line-height: 1;
+  letter-spacing: 0px;
+  font-weight: bold;
+  text-align: left;
+  writing-mode: horizontal-tb;
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  padding: 5px;
+  text-indent: 0px;
+}
+.musicinformation {
+  font-size: 13px;
+  line-height: 1;
+  letter-spacing: 0px;
+  font-weight: normal;
+  text-align: left;
+  writing-mode: horizontal-tb;
+  color: rgb(126, 126, 126);
+  opacity: 1;
+  padding: 5px;
+  text-indent: 0px;
+}
+.musicthr {
+  height: 49px;
+  width: 49px;
+  background-color: aquamarine;
+  margin-left: 20px;
+  img {
+    height: 49px;
+    width: 49px;
+  }
+}
+.musicnametxt {
+  font-family: 微软雅黑;
+  font-size: 13px;
+  line-height: 1;
+  letter-spacing: 0px;
+  text-align: center;
+  writing-mode: horizontal-tb;
+  color: rgb(176, 176, 176);
+  opacity: 1;
+  padding: 5px;
+  text-indent: 0px;
+  margin: 20px;
+}
+.wedint {
+  font-family: 微软雅黑;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0px;
+  font-weight: bold;
+  text-align: center;
+  writing-mode: horizontal-tb;
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  padding: 5px;
+  text-indent: 0px;
+}
+.xing {
+  height: 10px;
+  width: 10px;
+  background-color: blanchedalmond;
+}
+.datawed {
+  font-family: 微软雅黑;
+  font-size: 13px;
+  line-height: 1;
+  letter-spacing: 0px;
+  text-align: center;
+  writing-mode: horizontal-tb;
+  color: rgb(176, 176, 176);
+  opacity: 1;
+  padding: 5px;
+  text-indent: 0px;
+  margin: 10px;
+}
+.gettmarried {
+  height: 40px;
+  width: 100%;
+  background-color: blanchedalmond;
+  margin: 10px;
+}
+.gettext {
+  font-size: 26px;
+  line-height: 1;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-align: center;
+  writing-mode: horizontal-tb;
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  padding: 5px;
+  text-indent: 0px;
+  color: gray;
+  position: absolute;
+  top: 580px;
+}
+.mengxiang {
+  line-height: 1.2;
+  letter-spacing: 4px;
+  font-weight: normal;
+  text-align: center;
+  writing-mode: horizontal-tb;
+  color: rgb(127, 127, 127);
+  opacity: 1;
+  padding: 5px;
+  text-indent: 0px;
+  margin: 10px;
+}
+.tuonebox {
+  height: 480px;
+  width: 303px;
+}
+.tuone {
+  height: 480px;
+  width: 303px;
+  background-color: aquamarine;
+  animation: ab 2s;
+  img {
+    height: 480px;
+    width: 303px;
+    background-color:aqua;
+  }
+}
+@keyframes ab {
+  from {
+    opacity: 0;
+    transform: translateX(-340px);
+  }
+}
+.invitation {
+  width: 370px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.invitationtextbox {
+  height: 100px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.invitationtext {
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-align: left;
+  writing-mode: horizontal-tb;
+  color: rgb(127, 127, 127);
+  opacity: 1;
+  padding: 5px;
+  text-indent: 0px;
+}
+.invitationtextxiao {
+  height: 15px;
+  width: 150px;
+  background-color: black;
+}
+.invitationtubox {
+  height: 100px;
+  width: 100px;
+}
+.invitationtu {
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  animation: bc 4s ease;
+}
+@keyframes bc {
+  from {
+    opacity: 0;
+    transform: translateX(340px);
+  }
+}
+.mintext {
+  font-family: 微软雅黑;
+  font-size: 15px;
+  line-height: 1.7;
+  letter-spacing: 0px;
+  text-align: center;
+  writing-mode: horizontal-tb;
+  color: rgb(127, 127, 127);
+  opacity: 1;
+  padding: 5px;
+  text-indent: 0px;
+}
+.mintextpart {
+  font-family: 微软雅黑;
+  font-size: 15px;
+  line-height: 1.9;
+  letter-spacing: 0px;
+  text-align: center;
+  writing-mode: horizontal-tb;
+  color: rgb(127, 127, 127);
+  opacity: 1;
+  padding: 5px;
+  text-indent: 0px;
+  width: 300px;
+  height: auto;
+  // overflow: hidden;
+}
+.invitationtwo {
+  height: 200px;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+}
+.zuoshang {
+  height: 13px;
+  width: 100px;
+  background-color: black;
+  margin-left: 30px;
+}
+.invitwo {
+  margin-left: 180px;
+}
+.jiantouboxone {
+  margin-left: 150px;
+}
+/* .zuoshangtiao{
+  height: 60px;
+  width: 16px;
+  background-color:black ;
+  margin-right: 310px;
+} */
+.mantoubox {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+.mantou {
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  animation: aa 3s ease;
+}
+@keyframes aa {
+  from {
+    scale: 0;
+    transform: rotate(0deg);
+  }
+  to {
+    scale: 1;
+    transform: rotate(360deg);
+  }
+}
+.yiqi {
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(127, 127, 127);
+  opacity: 1;
+  padding: 5px;
+  text-indent: 0px;
+}
+.marriedbox {
+  width: 375px;
+  height: 400px;
+  position: relative;
+}
+.backgruand {
+  height: 342px;
+  width: 375px;
+  background-color: bisque;
+}
+.marriedboxtubox {
+  height: 350px;
+  width: 300px;
+  position: absolute;
+  top: 53px;
+  left: 41px;
+}
+.marriedboxtu {
+  height: 350px;
+  width: 300px;
+  background-color: aquamarine;
+  animation: bb 3s ease;
+}
+@keyframes bb {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.marriedboxwenzi {
+  font-size: 27px;
+  line-height: 1;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-align: center;
+  writing-mode: horizontal-tb;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  padding: 5px;
+  text-indent: 0px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+.chuti {
+  font-family: 微软雅黑;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: center;
+  writing-mode: horizontal-tb;
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  padding: 5px;
+  text-indent: 0px;
+  margin-top: 10px;
+}
+.wenben {
+  font-family: 微软雅黑;
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: center;
+  writing-mode: horizontal-tb;
+  color: rgb(127, 127, 127);
+  opacity: 1;
+  padding: 5px;
+  text-indent: 0px;
+  margin-bottom: 10px;
+}
+.amap {
+  height: 160px;
+  width: 280px;
+  background-color: aqua;
+  border: 5px brown solid;
+}
+.yitiao {
+  width: 375px;
+  height: 65px;
+  background-color: brown;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.yitiaowenben {
+  font-family: 微软雅黑;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: center;
+  writing-mode: horizontal-tb;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  padding: 5px;
+  text-indent: 0px;
+}
+.liuxia {
+  font-family: 微软雅黑;
+  font-size: 13px;
+  line-height: 1;
+  letter-spacing: 0px;
+  text-align: center;
+  writing-mode: horizontal-tb;
+  color: rgb(176, 176, 176);
+  opacity: 1;
+  padding: 5px;
+  text-indent: 0px;
+}
+.formname {
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0px;
+  text-align: left;
+  writing-mode: horizontal-tb;
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  padding: 5px;
+  text-indent: 0px;
+}
+.forminput {
+  margin: 10px;
+}
+.tijiao {
+  background-color: rgb(166, 173, 184);
+  border-radius: 1px;
+  border-width: 0px;
+  border-style: solid;
+  border-color: rgb(107, 119, 107);
+  line-height: 1;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  text-align: center;
+  opacity: 1;
+  height: 30px;
+  width: 250px;
+  margin: 20px;
+  margin-bottom: 300px;
+}

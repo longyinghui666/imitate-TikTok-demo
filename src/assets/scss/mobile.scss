@@ -1,0 +1,35 @@
+body {
+  min-width: 100vw !important;
+  min-height: 100vh !important;
+  max-width: 100vw !important;
+  max-height: 100vh !important;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+#app {
+  width: 100vw !important;
+  height: 100vh !important;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main::-webkit-scrollbar { width: 0 !important }
+main {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100vw;
+  height: 100vh;
+  // ::hover{
+  //   background-color: red;
+  // };
+  :-webkit-scrollbar{display:none}
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style:none;
+  overflow: -moz-scrollbars-none;
+}
+

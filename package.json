@@ -1,0 +1,35 @@
+{
+  "name": "gwyqh-template",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "node build/dev.js",
+    "preview": "node build/dev.js preview",
+    "build": "node build/build.js",
+    "build:dev": "node build/build.js development",
+    "build:test": "node build/build.js test",
+    "build:prod": "node build/build.js production"
+  },
+  "dependencies": {
+    "mitt": "^3.0.0",
+    "pinia": "^2.0.23",
+    "pinia-persistedstate-plugin": "^0.1.0",
+    "vue": "^3.2.37",
+    "vue-request": "^2.0.0-rc.4",
+    "vue-router": "^4.1.5",
+    "weixin-js-sdk": "^1.6.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.2",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.6.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "vite": "^3.1.0",
+    "vite-plugin-eslint": "^1.8.1"
+  }
+}
